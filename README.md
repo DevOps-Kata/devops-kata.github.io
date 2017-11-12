@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+## Sharpen Your Skills
 
-You can use the [editor on GitHub](https://github.com/DevOps-Kata/devops-kata.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+> A code kata is an exercise in programming which helps programmers hone their skills through practice and repetition.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The purpose of this site is to provide some Katas for doing DevOps.
+Things, one may work with every day: infrastructure, servers provisioning, build and deployment automation.
 
-### Markdown
+Different organisations have their own tools. And there are many more tools in the Internet.
+Battle-proofed ones and brand new. But the tasks are usually the same: deploy XXX to YYY, create infra for ZZZ at AAA IaaS provider.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+See the list of simple exercises that will try _your_ tools in real battle and sharpen your skills in a real-world task.
 
-```markdown
-Syntax highlighted code block
+### Kata 1: A simple web application
 
-# Header 1
-## Header 2
-### Header 3
+Given a simple random quotes application ([Ruby on Rails](https://github.com/DevOps-Kata/sample-rails-app)).
 
-- Bulleted
-- List
+A customer wants to:
+- deploy it to a cloud;
+- automated infrastructure formation;
+- and server provisioning;
 
-1. Numbered
-2. List
+One should make it happen with any tools of choice.
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DevOps-Kata/devops-kata.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+![Simple App Diagram](kata_1/kata_1.png)
